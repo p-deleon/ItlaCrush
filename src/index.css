@@ -1,13 +1,73 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(2, 56, 119);
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: rgba(12, 11, 11, 0.281);
+}
+
+img {
+    max-width: 15%;
+    height: 30%;
+    display: inline;
+}
+
+/*--------------login----------------------*/
+
+.login {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 100px auto;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: auto;
+}
+
+input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 56, 119);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    cursor: pointer;
 }
