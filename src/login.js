@@ -6,7 +6,7 @@ export default function login()
                <input placeholder="Nombre de Usuario"/>
                <br></br>
                <br></br>
-               <input placeholder="Contraseña"/>
+               <input placeholder="Contraseña" type="password"/>
                <br></br>
                <br></br>
                <button>Log in</button>
