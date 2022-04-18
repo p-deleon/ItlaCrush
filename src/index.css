@@ -26,6 +26,12 @@ li {
     padding: 14px 16px;
     color: rgb(255, 255, 255);
 }
+li a:link,
+li a:visited {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
 
 /* Change the link color to #111 (black) on hover */
 li:hover {
@@ -91,6 +97,7 @@ button {
     z-index: 0;
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .lid {
@@ -166,4 +173,54 @@ button {
 .wrapper:hover .letter {
     transform: translateY(-50px);
     transition-delay: 0.5s;
+}
+
+.sort {
+    display: inline-block;
+    margin: 100px 50px;
+}
+
+/*--------------form----------------------*/
+
+.form {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 100px auto;
+    padding: 20px 0 28px;
+    width: 660px;
+    height: auto;
+}
+
+.para {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 600px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+textarea {
+    width: 600px;
+    height: 300px;
+    resize: none;
+    overflow-y: scroll;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.botonesForm {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 56, 119);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 290px;
+    cursor: pointer;
+    margin: 5px 15px;
 }
